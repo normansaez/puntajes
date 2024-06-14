@@ -19,5 +19,6 @@ if column_to_sort_by == 'diff':
     ascending = False
 df_ordenado = df.sort_values(by=column_to_sort_by, ascending=ascending)
 st.write(f"Ordenado por la columna '{column_to_sort_by}':")
-st.write(df_ordenado)
+#st.write(df_ordenado)
+st.text(df_ordenado.to_string(index=False))
 
