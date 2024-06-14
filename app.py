@@ -12,6 +12,6 @@ st.title('📊 Puntajes')
 df = pd.read_csv('data/completo.csv')
 df_editor = st.data_editor(df, height=212, use_container_width=True,num_rows="dynamic")
 
-df = pd.read_csv('data/final.csv')
+#df = pd.read_csv('data/final.csv')
 df_editor = st.data_editor(df, height=212, use_container_width=True,num_rows="dynamic")
 
