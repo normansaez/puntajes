@@ -14,7 +14,11 @@ df_editor = st.data_editor(df, height=212, use_container_width=True,num_rows="dy
 
 df = pd.read_csv('data/final.csv')
 column_to_sort_by = st.selectbox('Selecciona la columna por la cual ordenar:', df.columns)
-df_ordenado = df.sort_values(by=column_to_sort_by, ascending=False)
+if column_to_sort_by == 'diff':
+    ascending = False
+else:
+    ascending = True
+df_ordenado = df.sort_values(by=column_to_sort_by, ascending)
 st.write("DataFrame original:")
 st.write(df)
 st.write(f"DataFrame ordenado por la columna '{column_to_sort_by}':")
