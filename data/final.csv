@@ -1,33 +1,33 @@
-nombre del participante,Puesto,PuestoPP
-José Manuel boza,1,1
-Rafael cortez,2,2
-Nicolas Diaz Barriga,3,3
-Unai Antuftano,5,4
-Ramon alejandro navarro rojas,4,5
-José Benito Caceres Gonzalez,7,6
-Elvis marcelo muñoz rojas,6,7
-Ayen conquet cuesta,11,8
-Luis angel bravo fuentes,12,9
-Sebastian Andres Vargas Celis,13,10
-Martin Antonio Alonso Duran Yañez,8,11
-Valentin Caceres,9,12
-Diego Castro Rocco,16,13
-Jacob araya,10,14
-Maximiliano Ignacio Martin Maureira,12,15
-Alvaro Almendras,14,16
-Tomas Patricio Hiche Escudero,17,17
-Diego Silva Escudero,15,18
-Eduardo Esteban Muñoz Pavez,21,19
-Nicanor Adriazola,23,20
-Tomas Villanueva Correa,18,21
-Juan pablo collao,19,21
-Norman Saez,24,23
-Taylor McLean,20,24
-Ivan Gerardo Pohl Bravo,22,25
-Carlos José Herrera reyes,25,26
-Gabriel figueroa huerta,26,27
-Max Petit-Breuilh,27,28
-Jorge Pelao Manieu,28,29
-Matias Balmaceda Avendaño,28,29
-Andres Correa,28,29
-José Ignacio Canevaro Jaramillo,28,29
+nombre del participante,Puesto,PuestoPP,diff
+Diego Castro Rocco,16,13,3
+Nicanor Adriazola,23,20,3
+Ayen conquet cuesta,11,8,3
+Luis angel bravo fuentes,12,9,3
+Sebastian Andres Vargas Celis,13,10,3
+Eduardo Esteban Muñoz Pavez,21,19,2
+Norman Saez,24,23,1
+Unai Antuftano,5,4,1
+José Benito Caceres Gonzalez,7,6,1
+José Manuel boza,1,1,0
+Rafael cortez,2,2,0
+Tomas Patricio Hiche Escudero,17,17,0
+Nicolas Diaz Barriga,3,3,0
+Carlos José Herrera reyes,25,26,-1
+Andres Correa,28,29,-1
+Matias Balmaceda Avendaño,28,29,-1
+Jorge Pelao Manieu,28,29,-1
+Max Petit-Breuilh,27,28,-1
+Gabriel figueroa huerta,26,27,-1
+José Ignacio Canevaro Jaramillo,28,29,-1
+Ramon alejandro navarro rojas,4,5,-1
+Elvis marcelo muñoz rojas,6,7,-1
+Juan pablo collao,19,21,-2
+Alvaro Almendras,14,16,-2
+Tomas Villanueva Correa,18,21,-3
+Ivan Gerardo Pohl Bravo,22,25,-3
+Diego Silva Escudero,15,18,-3
+Martin Antonio Alonso Duran Yañez,8,11,-3
+Maximiliano Ignacio Martin Maureira,12,15,-3
+Valentin Caceres,9,12,-3
+Jacob araya,10,14,-4
+Taylor McLean,20,24,-4
