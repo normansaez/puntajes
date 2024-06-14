@@ -19,9 +19,9 @@ if column_to_sort_by == 'diff':
 else:
     ascending = True
 df_ordenado = df.sort_values(by=column_to_sort_by, ascending)
-st.write("DataFrame original:")
-st.write(df)
-st.write(f"DataFrame ordenado por la columna '{column_to_sort_by}':")
+#st.write("DataFrame original:")
+#st.write(df)
+st.write(f"Ordenado por la columna '{column_to_sort_by}':")
 st.write(df_ordenado)
-df_editor = st.data_editor(df, height=212, use_container_width=True,num_rows="dynamic")
+#df_editor = st.data_editor(df, height=212, use_container_width=True,num_rows="dynamic")
 
