@@ -7,12 +7,26 @@ import altair as alt
 st.set_page_config(page_title='Puntajes', page_icon='📊')
 st.title('📊 Puntajes')
 
-
+seleccion = st.radio(
+    "Selecciona 👉",
+    key="visibility",
+    options=["Femenino", "Masculino"],
+)
 # Load data
-df = pd.read_csv('data/completo.csv')
+if seleccion == 'Femenino':
+    st.write(seleccion)
+    df = pd.read_csv('data/completoF.csv')
+elif seleccion == 'Masculino':
+    st.write(seleccion)
+    df = pd.read_csv('data/completo.csv')
 df_editor = st.data_editor(df, height=212, use_container_width=True,num_rows="dynamic")
+if seleccion == 'Femenino':
+    st.write(seleccion)
+    df = pd.read_csv('data/finalF.csv')
+elif seleccion == 'Masculino':
+    st.write(seleccion)
+    df = pd.read_csv('data/final.csv')
 
-df = pd.read_csv('data/final.csv')
 df = df.reset_index(drop=True)
 column_to_sort_by = st.selectbox('Selecciona la columna por la cual ordenar:', df.columns)
 ascending = True
