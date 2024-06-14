@@ -16,7 +16,7 @@ st.title('📊 Puntajes')
 #st.subheader('Which Movie Genre performs ($) best at the box office?')
 
 # Load data
-df = pd.read_csv('data/puntajes.csv')
+df = pd.read_csv('data/completo.csv')
 #df.year = df.year.astype('int')
 
 ## Input widgets
